@@ -1,0 +1,143 @@
+# C:\OCaml64\home\48008\.opam\4.14.0+mingw64c\bin\dune.exe build
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Workspace root: "C:\\OCaml64\\home\\48008\\expression"
+# Auto-detected concurrency: 16
+$ C:\OCaml64\home\48008\.opam\4.14.0+mingw64c\bin\ocamlc.opt.exe -config > C:\OCaml64\tmp\dune_e761a4_output
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; for_host = None
+#  ; fdo_target_exe = None
+#  ; build_dir = "default"
+#  ; toplevel_path =
+#      Some External "C:/OCaml64/home/48008/.opam/4.14.0+mingw64c/lib/toplevel"
+#  ; ocaml_bin =
+#      External "C:\\OCaml64\\home\\48008\\.opam\\4.14.0+mingw64c\\bin"
+#  ; ocaml =
+#      Ok
+#        External
+#          "C:\\OCaml64\\home\\48008\\.opam\\4.14.0+mingw64c\\bin\\ocaml.exe"
+#  ; ocamlc =
+#      External
+#        "C:\\OCaml64\\home\\48008\\.opam\\4.14.0+mingw64c\\bin\\ocamlc.opt.exe"
+#  ; ocamlopt =
+#      Ok
+#        External
+#          "C:\\OCaml64\\home\\48008\\.opam\\4.14.0+mingw64c\\bin\\ocamlopt.opt.exe"
+#  ; ocamldep =
+#      Ok
+#        External
+#          "C:\\OCaml64\\home\\48008\\.opam\\4.14.0+mingw64c\\bin\\ocamldep.opt.exe"
+#  ; ocamlmklib =
+#      Ok
+#        External
+#          "C:\\OCaml64\\home\\48008\\.opam\\4.14.0+mingw64c\\bin\\ocamlmklib.opt.exe"
+#  ; env =
+#      map
+#        { "DUNE_OCAML_HARDCODED" :
+#            "C:\\\\OCaml64\\\\home\\\\48008\\\\.opam\\\\4.14.0+mingw64c\\lib"
+#        ; "DUNE_OCAML_STDLIB" :
+#            "C:/OCaml64/home/48008/.opam/4.14.0+mingw64c/lib/ocaml"
+#        ; "DUNE_SOURCEROOT" : "C:\\OCaml64\\home\\48008\\expression"
+#        ; "INSIDE_DUNE" :
+#            "C:\\OCaml64\\home\\48008\\expression\\_build/default"
+#        ; "MANPATH" :
+#            "C:\\OCaml64\\home\\48008\\expression\\_build/install/default/bin"
+#        ; "OCAML_COLOR" : "always"
+#        ; "OCAMLFIND_IGNORE_DUPS_IN" :
+#            "C:\\OCaml64\\home\\48008\\expression\\_build/install/default/lib"
+#        ; "OCAMLPATH" :
+#            "C:\\OCaml64\\home\\48008\\expression\\_build/install/default/lib"
+#        ; "OCAMLTOP_INCLUDE_PATH" :
+#            "C:\\OCaml64\\home\\48008\\expression\\_build/install/default/lib/toplevel"
+#        ; "OPAMCOLOR" : "always"
+#        }
+#  ; findlib_paths =
+#      [ External
+#          "C:\\\\OCaml64\\\\home\\\\48008\\\\.opam\\\\4.14.0+mingw64c\\lib"
+#      ]
+#  ; arch_sixtyfour = true
+#  ; natdynlink_supported = true
+#  ; supports_shared_libraries = true
+#  ; ocaml_config =
+#      { version = "4.14.0"
+#      ; standard_library_default =
+#          "C:/cygwin/home/appveyor/.opam/4.14.0+mingw64c/lib/ocaml"
+#      ; standard_library =
+#          "C:/OCaml64/home/48008/.opam/4.14.0+mingw64c/lib/ocaml"
+#      ; standard_runtime = "the_standard_runtime_variable_was_deleted"
+#      ; ccomp_type = "cc"
+#      ; c_compiler = "x86_64-w64-mingw32-gcc"
+#      ; ocamlc_cflags =
+#          [ "-O2"; "-fno-strict-aliasing"; "-fwrapv"; "-mms-bitfields" ]
+#      ; ocamlc_cppflags = []
+#      ; ocamlopt_cflags =
+#          [ "-O2"; "-fno-strict-aliasing"; "-fwrapv"; "-mms-bitfields" ]
+#      ; ocamlopt_cppflags = []
+#      ; bytecomp_c_compiler =
+#          [ "x86_64-w64-mingw32-gcc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-mms-bitfields"
+#          ]
+#      ; bytecomp_c_libraries = [ "-lws2_32"; "-lversion" ]
+#      ; native_c_compiler =
+#          [ "x86_64-w64-mingw32-gcc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-mms-bitfields"
+#          ]
+#      ; native_c_libraries = [ "-lws2_32"; "-lversion" ]
+#      ; native_pack_linker = [ "x86_64-w64-mingw32-ld"; "-r"; "-o" ]
+#      ; cc_profile = []
+#      ; architecture = "amd64"
+#      ; model = "default"
+#      ; int_size = 63
+#      ; word_size = 64
+#      ; system = "mingw64"
+#      ; asm = [ "x86_64-w64-mingw32-gcc"; "-c" ]
+#      ; asm_cfi_supported = false
+#      ; with_frame_pointers = false
+#      ; ext_exe = ".exe"
+#      ; ext_obj = ".o"
+#      ; ext_asm = ".s"
+#      ; ext_lib = ".a"
+#      ; ext_dll = ".dll"
+#      ; os_type = "Win32"
+#      ; default_executable_name = "camlprog.exe"
+#      ; systhread_supported = true
+#      ; host = "x86_64-w64-mingw32"
+#      ; target = "x86_64-w64-mingw32"
+#      ; profiling = false
+#      ; flambda = false
+#      ; spacetime = false
+#      ; safe_string = true
+#      ; exec_magic_number = "Caml1999X031"
+#      ; cmi_magic_number = "Caml1999I031"
+#      ; cmo_magic_number = "Caml1999O031"
+#      ; cma_magic_number = "Caml1999A031"
+#      ; cmx_magic_number = "Caml1999Y031"
+#      ; cmxa_magic_number = "Caml1999Z031"
+#      ; ast_impl_magic_number = "Caml1999M031"
+#      ; ast_intf_magic_number = "Caml1999N031"
+#      ; cmxs_magic_number = "Caml1999D031"
+#      ; cmt_magic_number = "Caml1999T031"
+#      ; natdynlink_supported = true
+#      ; supports_shared_libraries = true
+#      ; windows_unicode = true
+#      }
+#  }
+$ (cd _build/default && C:\OCaml64\home\48008\.opam\4.14.0+mingw64c\bin\ocamldep.opt.exe -modules -impl lib/expression.ml) > _build/default/lib/.expression.objs/expression.ml.d
+$ (cd _build/default && C:\OCaml64\home\48008\.opam\4.14.0+mingw64c\bin\ocamlc.opt.exe -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -bin-annot -I lib/.expression.objs/byte -no-alias-deps -opaque -open Expression__ -o lib/.expression.objs/byte/expression.cmo -c -impl lib/expression.ml)
+$ (cd _build/default && C:\OCaml64\home\48008\.opam\4.14.0+mingw64c\bin\ocamlc.opt.exe -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -a -o lib/expression.cma lib/.expression.objs/byte/expression__.cmo lib/.expression.objs/byte/expression__Ast.cmo lib/.expression.objs/byte/expression__Parser.cmo lib/.expression.objs/byte/expression__Lexer.cmo lib/.expression.objs/byte/expression.cmo)
+$ (cd _build/default && C:\OCaml64\home\48008\.opam\4.14.0+mingw64c\bin\ocamlc.opt.exe -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -bin-annot -I bin/.main.eobjs/byte -I lib/.expression.objs/byte -no-alias-deps -opaque -o bin/.main.eobjs/byte/dune__exe__Main.cmi -c -intf bin/main.mli)
+$ (cd _build/default && C:\OCaml64\home\48008\.opam\4.14.0+mingw64c\bin\ocamlopt.opt.exe -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -I lib/.expression.objs/byte -I lib/.expression.objs/native -intf-suffix .ml -no-alias-deps -opaque -open Expression__ -o lib/.expression.objs/native/expression.cmx -c -impl lib/expression.ml)
+$ (cd _build/default && C:\OCaml64\home\48008\.opam\4.14.0+mingw64c\bin\ocamlopt.opt.exe -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -I bin/.main.eobjs/byte -I bin/.main.eobjs/native -I lib/.expression.objs/byte -I lib/.expression.objs/native -intf-suffix .ml -no-alias-deps -opaque -o bin/.main.eobjs/native/dune__exe__Main.cmx -c -impl bin/main.ml)
+$ (cd _build/default && C:\OCaml64\home\48008\.opam\4.14.0+mingw64c\bin\ocamlopt.opt.exe -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -a -o lib/expression.cmxa lib/.expression.objs/native/expression__.cmx lib/.expression.objs/native/expression__Ast.cmx lib/.expression.objs/native/expression__Parser.cmx lib/.expression.objs/native/expression__Lexer.cmx lib/.expression.objs/native/expression.cmx)
+$ (cd _build/default && C:\OCaml64\home\48008\.opam\4.14.0+mingw64c\bin\ocamlopt.opt.exe -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -shared -linkall -I lib -o lib/expression.cmxs lib/expression.cmxa)
+$ (cd _build/default && C:\OCaml64\home\48008\.opam\4.14.0+mingw64c\bin\ocamlopt.opt.exe -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -o bin/main.exe lib/expression.cmxa bin/.main.eobjs/native/dune__exe__Main.cmx)
